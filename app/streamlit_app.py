@@ -49,7 +49,7 @@ def safe_clean_and_engineer(path: str) -> pd.DataFrame:
 # ----------------------------------------------------------
 @st.cache_resource(show_spinner="Loading SARIMA model…")
 def load_sarima():
-    return joblib.load("sarimax_results.pkl")
+    return joblib.load("app/sarimax_results.pkl")
 
 df_fe = safe_clean_and_engineer("app/merged1_energy_data.csv")
 sarima_res = load_sarima()
