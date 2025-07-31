@@ -19,7 +19,7 @@ from utils.plots import forecast_chart
 st.title("🔮 Electricity Demand Forecast")
 
 df = load_energy_data()
-model = joblib.load("models/sarimax_results.pkl")
+model = joblib.load("app/models/sarimax_results.pkl")
 
 selected_date = st.date_input(
     "Select forecast date", 
