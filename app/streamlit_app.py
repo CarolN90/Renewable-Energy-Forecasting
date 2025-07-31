@@ -51,7 +51,7 @@ def safe_clean_and_engineer(path: str) -> pd.DataFrame:
 def load_sarima():
     return joblib.load("sarimax_results.pkl")
 
-df_fe = safe_clean_and_engineer("merged1_energy_data.csv")
+df_fe = safe_clean_and_engineer("app/merged1_energy_data.csv")
 sarima_res = load_sarima()
 
 # ----------------------------------------------------------
