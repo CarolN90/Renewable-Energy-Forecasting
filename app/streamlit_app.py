@@ -1,21 +1,20 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import joblib
-import plotly.graph_objects as go
 
-# ----------------------------------------------------------
-# 0. Clean & engineer features
-# ----------------------------------------------------------
-@st.cache_data(show_spinner="Cleaning & engineering features…")
-def safe_clean_and_engineer(path: str) -> pd.DataFrame:
-    df = pd.read_csv(path)
-    df["Month"] = pd.to_datetime(df["Month"])
-    df = df.sort_values("Month").set_index("Month")
+st.set_page_config(page_title="Kenya Energy Insights", layout="wide", page_icon="🔌")
 
-    if "Kplc" in df.columns:
-        df.drop(columns=["Kplc"], inplace=True)
+st.title("🔌 Kenya Energy Intelligence Dashboard")
+st.markdown("""
+Welcome to a multi-layered analytical view of Kenya's electricity landscape.
 
+<<<<<<< HEAD
+Navigate through the tabs on the left:
+- 📊 Overview: Key metrics and trends
+- ⚡ Generation Mix: Renewable vs non-renewable evolution
+- 🔮 Forecasting Tool: SARIMA-based monthly projections
+- 🧪 Scenario Explorer: Test different renewable supply inputs
+- 🌐 Grid Connectivity: Electrification and access insights
+""")
+=======
     late_tariff_cols = [
         "Small_Commercial_3_100per_kWh_1500per_kWh",
         "SC3_Bulk_Supply_1000per_kWh_1500per_kWh",
@@ -130,3 +129,4 @@ if st.button("🔮 Forecast for selected date"):
             hovermode="x unified"
         )
         st.plotly_chart(fig, use_container_width=True)
+>>>>>>> 4b79e871dbc2797401a6bf4cb55a6e15d044c68e

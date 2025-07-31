@@ -1,0 +1,41 @@
+# Ignore Python virtual environments
+venv/
+env/
+.venv/
+forecastenv/
+app/forecastenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Streamlit & secrets
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Data files
+data/
+*.csv
+*.xlsx
+
+# Model files
+*.h5
+*.joblib
+*.sav
+*.pkl
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
