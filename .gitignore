@@ -10,7 +10,6 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.pkl
 *.log
 
 # Streamlit & secrets
@@ -22,7 +21,6 @@ __pycache__/
 *.h5
 *.joblib
 *.sav
-*.pkl
 
 # Build artifacts
 build/
