@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 # Load data
 @st.cache_data
 def load_data():
-    path = os.path.join("..", "data", "merged1_energy_data.csv")
+    path = os.path.join("data", "merged1_energy_data.csv")
     df = pd.read_csv(path)
     df["Month"] = pd.to_datetime(df["Month"])
     return df
