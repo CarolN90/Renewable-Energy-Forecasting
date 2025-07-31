@@ -1,0 +1,73 @@
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.log
+
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter/IPython Notebook checkpoints
+.ipynb_checkpoints/
+
+# -------------------
+# Streamlit & Logs
+# -------------------
+.streamlit/config.toml
+.streamlit/secrets.toml
+**/.DS_Store
+**/*.log
+
+# -------------------
+# Anaconda
+# -------------------
+*.conda
+*.ipynb
+*.env
+*.yaml
+
+# -------------------
+# Data Files
+# -------------------
+data/
+*.csv
+*.xlsx
+
+# -------------------
+# Model Files
+# -------------------
+*.h5
+*.sav
+*.pt
+*.pkl
+*.model
+
+# -------------------
+# VS Code / IDE / OS
+# -------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------
+# Git
+# -------------------
+*.orig
+
+# -------------------
+# Build/Dist
+# -------------------
+build/
+dist/
+*.egg-info/
