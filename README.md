@@ -1,7 +1,8 @@
 
-#  Towards a Resilient Grid: Strategies for Variable Renewable Energy in Kenya
+<h1 align="center">Towards a Resilient Grid: Strategies for Variable Renewable Energy in Kenya</h1>
 
-### *"Data-Driven Solutions for a Reliable and Green Energy Future"*
+<h2 align="center"><i>Data-Driven Solutions for a Reliable and Green Energy Future</i></h2>
+
 ![Gemini_Generated_Image_adcgg3adcgg3adcg](https://github.com/user-attachments/assets/c408eaa8-ac4c-459c-a339-bf2a192294c7)
 
 ---
