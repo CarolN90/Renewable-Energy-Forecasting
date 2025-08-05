@@ -76,12 +76,12 @@ Data Extraction → Data Processing → Modeling & Analysis → Visualization & 
 **Insights:**
   
 Electricity demand is steadily rising with seasonal peaks, and while grid capacity is expanding, it may lag behind, causing bottlenecks that highlight the need for proactive upgrades to ensure stability, reduce outages, and guide strategic investment decisions.
-- **Tariff Variability**:
-<img width="1760" height="1238" alt="image" src="https://github.com/user-attachments/assets/a4df0273-93de-4239-abaa-3ee6a66eba8b" />
+- **SARIMAX: Actual vs Predicted Grid Risk / Demand**:
+<img src="http://googleusercontent.com/file_content/0" width="1760" height="1238" alt="SARIMAX: Actual vs Predicted Grid Risk / Demand" />
 
 **Insights:**
-  
-  DC3 (Small Commercial) leads in electricity consumption, exceeding 100K GWh, followed by CI1 (Commercial Industrial), reflecting strong industrial demand, while SC3 also shows high usage just below DC3; in contrast, residential categories (DC1, DC2) have lower consumption, Bulk Supply (SC3 1000pe) indicates moderate demand, and higher-tier CI and SC classes (CI4–CI6, SC7) consume the least.
+
+The chart compares actual electricity consumption (solid black line) against the SARIMAX model's predictions (dashed green line) over time. This shows how closely the model's forecasts align with real-world consumption patterns, which is a critical measure for assessing grid risk and demand forecasting accuracy.
 - **Technology Trends**: Wind and solar have seasonal patterns affecting their contribution to the grid.
 <img width="2214" height="1085" alt="image" src="https://github.com/user-attachments/assets/b8eb9931-56e2-4895-89bb-1c12936c560f" />
 
