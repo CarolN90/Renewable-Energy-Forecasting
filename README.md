@@ -77,7 +77,7 @@ Data Extraction → Data Processing → Modeling & Analysis → Visualization & 
   
 Electricity demand is steadily rising with seasonal peaks, and while grid capacity is expanding, it may lag behind, causing bottlenecks that highlight the need for proactive upgrades to ensure stability, reduce outages, and guide strategic investment decisions.
 - **SARIMAX: Actual vs Predicted Grid Risk / Demand**:
-<img width="2214" height="927" alt="SARIMAX: Actual vs Predicted Grid Risk / Demand" src="https://github.com/user-attachments/assets/a4df0273-93de-4239-abaa-3ee6a66eba8b" />
+[C:\Users\HP PROBOOK\Documents\Flatiron\Phase5_Capstone_Project\Renewable-Energy-Forecasting](https://github.com/CarolN90/Renewable-Energy-Forecasting/blob/main/sarimax_viz.png)
 
 **Insights:**
 
