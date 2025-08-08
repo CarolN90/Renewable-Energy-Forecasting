@@ -105,7 +105,7 @@ This project demonstrates how data-driven tools can transform energy planning in
 Through forecasting and risk modeling, we identified key drivers of electricity demand and developed tools to support smarter, more resilient operations.  
 
 - **Accurate Forecasting** – SARIMAX and Prophet models were evaluated, with **SARIMAX** selected for deployment due to its accuracy, interpretability, and ability to incorporate external factors.  
-- **Risk Insights** – The XGBoost-based **RiskScore** model highlighted critical grid stress factors such as customer growth and infrastructure strain *(model not yet deployed)*.  
+- **Risk Insights** – The XGBoost-based **RiskScore** model highlighted critical grid stress factors such as customer growth and infrastructure strain.  
 - **Consumption Drivers** – Industrial and urban users account for most of the national electricity consumption.  
 - **Seasonal Challenges** – Variability in hydro and solar output emphasizes the need for better storage and dispatch systems.  
 - **Decision Support Tool** – A deployed **Streamlit app** provides real-time demand forecasts and trend analysis for scenario-based decision-making.  
