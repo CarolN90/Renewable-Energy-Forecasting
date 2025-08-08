@@ -99,6 +99,31 @@ This work provides a foundation for:
 - Stakeholders to visualize clean energy transition trajectories.
 
 ---
+##  Conclusion
+
+This project demonstrates how data-driven tools can transform energy planning in Kenya.  
+Through forecasting and risk modeling, we identified key drivers of electricity demand and developed tools to support smarter, more resilient operations.  
+
+- **Accurate Forecasting** – SARIMAX and Prophet models were evaluated, with **SARIMAX** selected for deployment due to its accuracy, interpretability, and ability to incorporate external factors.  
+- **Risk Insights** – The XGBoost-based **RiskScore** model highlighted critical grid stress factors such as customer growth and infrastructure strain *(model not yet deployed)*.  
+- **Consumption Drivers** – Industrial and urban users account for most of the national electricity consumption.  
+- **Seasonal Challenges** – Variability in hydro and solar output emphasizes the need for better storage and dispatch systems.  
+- **Decision Support Tool** – A deployed **Streamlit app** provides real-time demand forecasts and trend analysis for scenario-based decision-making.  
+
+---
+
+##  Recommendations
+
+With the SARIMAX model and national forecasting dashboard now deployed, the next step is to maximize their operational and strategic potential:  
+
+1. **Operationalize the Forecasting Model** – Integrate SARIMAX into utility workflows for daily load forecasting, improving dispatch efficiency and reducing reliance on costly thermal generation.  
+2. **Optimize Renewable Dispatch** – Use seasonal patterns to align solar and hydro generation with storage strategies, minimizing curtailment and enhancing grid stability.  
+3. **Plan Infrastructure Investments** – Leverage forecast outputs to guide upgrades in transmission and distribution where projected demand exceeds capacity.  
+4. **Integrate Risk Monitoring** – Deploy the RiskScore model as a live monitoring tool to track grid stress drivers in real time.  
+5. **Expand Dashboard Access** – Share the Streamlit app with regulators, planners, and developers to foster collaborative, data-driven energy planning.  
+
+---
+
 
 ##  How to Run the Project
 
